@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  text-align: center;
+  margin: 30px;
+}
+
+section#localName {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+section#localName div.localName {
+  width: 20%;
+  height: 30vh;
+  border: 1px solid;
+  border-radius: 3rem 0;
+  padding: 4.5rem 1rem 1rem 1rem;
+  margin: 2rem;
+  text-align: center;
+  vertical-align: middle;
+} /*# sourceMappingURL=style.css.map */
