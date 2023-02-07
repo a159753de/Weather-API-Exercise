@@ -4,24 +4,29 @@
   padding: 0;
 }
 
+body {
+  background-color: antiquewhite;
+}
+
 .header {
   text-align: center;
   margin: 30px;
 }
 
-section#localName {
+section {
   display: flex;
   flex-direction: row;
-  justify-content: center;
   flex-wrap: wrap;
 }
-section#localName div.localName {
-  width: 20%;
-  height: 30vh;
-  border: 1px solid;
-  border-radius: 3rem 0;
-  padding: 4.5rem 1rem 1rem 1rem;
-  margin: 2rem;
-  text-align: center;
-  vertical-align: middle;
-} /*# sourceMappingURL=style.css.map */
+section div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px black solid;
+  border-radius: 5rem 10rem;
+  background-color: aquamarine;
+  margin: 1rem;
+  width: 30%;
+  height: 35vh;
+}/*# sourceMappingURL=style.css.map */
